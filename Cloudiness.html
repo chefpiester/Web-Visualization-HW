@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sam Piester HW 12 - WeatherPy Data</title>
+    <title>Sam Piester 12 - WeatherPy Data</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -17,6 +17,9 @@
 
 
 </head>
+
+<!-- body data-spy="scroll" data-target=".navbar" data-offest="60 --">
+          <!--This is the "nav bar"-->
 
 <body>
 
@@ -30,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="home" class="active navbar-brand brand_color" href="index.html">Latitude</a>
+                <a class="active navbar-brand brand_color" href="index.html">Latitude</a>
             </div>
             <div>
 
@@ -75,24 +78,9 @@
                 <header>
                     <div class="row">
                         <div class="left col-lg-8 col-md-8 col-xs-12">
-                            <h2>Summary: Latitude vs. X</h2>
-                            <img id="image" src="LatvsTemp.png" class="pull-left img-responsive img-rounded" alt="Latitude vs Longitude">
-                            <p>The purpose of this project was to analyze the weather as it approaches the equator. To accomplish this, we pulled data 
-                                from the OpenWeatherMap API to assemble a dataaset from over 500 cities.
-<br>
-                                After this, we used Matplotlib to plot the various aspects comparing the weather vs. latitude. 
-<br>                            
-<br>                            Factors we looked at included:
-<br><ul type="square">          <li>Temperature</li>
-<br>                            <li>Cloudiness</li>
-<br>                            <li>Wind speed</li>
-<br>                            <li>Humidity</li>
-<br></ul>
-<br>    
-                                This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any 
-                                trends and correlations witnessed.
-                                <br>                                  
-                            
+                            <h2>Summary: Latitude vs. Cloudiness</h2>
+                            <a href="cloudiness.html"><img src="LatvsCloudiness.png" class="img-responsive" alt="Latitude vs Cloudiness"></a>
+                                
                         </div>
                         <div class="col-lg-4 col-md-4 col-xs-12">
                             <h2>Visualizations</h2>
@@ -100,14 +88,14 @@
                             <div class="row">
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
-                                        <a href="max_temp.html"><img src="LatvsTemp.png" class="img-responsive" alt="Latitude vs Temperature"></a>
+                                            <a href="max_temp.html"><img src="LatvsTemp.png" class="img-responsive" alt="Latitude vs Temperature"></a>
 
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
-                                        <a href="humidity.html"><img src="LatvsHumidity.png" class="img-responsive" alt="Latitude vs Humnidity"></a>
+                                            <a href="humidity.html"><img src="LatvsHumidity.png" class="img-responsive" alt="Latitude vs Humnidity"></a>
 
                                     </div>
                                 </div>
@@ -115,14 +103,14 @@
                             <div class="row">
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
-                                        <a href="cloudiness.html"><img src="LatvsCloudiness.png" class="img-responsive" alt="Latitude vs Cloudiness"></a>
+                                            <a href="cloudiness.html"><img src="LatvsCloudiness.png" class="img-responsive" alt="Latitude vs Cloudiness"></a>
 
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
-                                        <a href="wind_speed.html"><img src="LatvsWindSpeed.png" class="img-responsive" alt="Latitude vs Wind Speed"></a>
+                                            <a href="wind_speed.html"><img src="LatvsWindSpeed.png" class="img-responsive" alt="Latitude vs Wind Speed"></a>
 
                                     </div>
                                 </div>
@@ -144,8 +132,7 @@
 <div class="container-fluid"> 
         <footer style="background-color: lightblue">
             </footer>
-</div>
-
+        </div>
 
 
 </html>
